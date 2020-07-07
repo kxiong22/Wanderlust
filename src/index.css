@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');*/
+
+.search-bar{
+    height: 50px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search-bar-container{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    /* margin-left: 5px; */
+}
+
+.submit-button{
+    height:38px;
+    width:100px;
+}
+
+.weather-container{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: #AADAFF;
+    color: white; /*text color*/
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.weather-desc{
+    padding-top: 5px;
+}
+
+.weather-temp{
+    font-size: 40px;
+    font-weight: 300;
+}
+.map-container{
+    height: 200px;
+    width: 200px;
+    margin-top: 43px;
+}
+
+.title{
+    font-size: 72px;
+    text-align: left;
+    margin-top: 50px;
+    color: black; 
+    font-weight: 100;
+    /* font-family: 'Amatic SC', cursive; */
+}
+
+.gallery-col {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.gallery-row{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.image {
+    object-fit: cover;
+    /*fit the size of its container*/
+    width: 100%;
+    height: 100%;
+}
+.modal-button {
+    object-fit: cover;
+    height: 200px;
+}
+
+.modal-button:hover {
+    filter: grayscale(100%);
+}
+
+.modal-pic{
+    object-fit: cover;
+    border-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date-container {
+    margin-top: 20px;
+    font-weight: 200;
+    text-align: center;
 }
